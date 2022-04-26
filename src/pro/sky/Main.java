@@ -6,7 +6,6 @@ public class Main {
         Task2();
         Task3();
     }
-
     public static void Task1() {
         int i = 1;
         while (i <= 10) {
