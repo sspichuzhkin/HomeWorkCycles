@@ -1,1 +1,3 @@
-/HomeWorkCycles.iml
+*.iml
+/out/
+/.idea/
