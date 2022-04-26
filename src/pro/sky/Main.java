@@ -35,13 +35,10 @@ public class Main {
         int pastYear = currentYear - 200;
         int futureYear = currentYear + 100;
 
-        for (int i = startYear; i <= futureYear; ) {
-            if (i >= pastYear && i <= currentYear) {
-                System.out.println(i);
-            } else if (i > currentYear && i <= futureYear) {
+        for (int i = startYear; i <= futureYear; i = i + 79) {
+            if (i >= pastYear ) {
                 System.out.println(i);
             }
-            i = i + 79;
         }
     }
 }
